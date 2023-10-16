@@ -1,0 +1,51 @@
+﻿body
+{
+}
+
+.box1 {
+    width: 270px;
+    height: 100px;
+    background-color: bisque;
+    padding-top:10px;
+   
+}
+
+#box2 {
+    position: absolute;
+    width: 270px;
+    height:calc(100% - 110px);
+    background-color: aqua;
+}
+
+.containter{
+    position:relative;
+    min-height:280px;
+
+}
+#box3 {
+    position: absolute;
+    width: calc(100% - 270px);
+    min-height:280px;
+    left: 270px;
+    top: 0;
+   
+    background-color: darkgray;
+}
+p{
+    margin-top:0;
+   font-size:17px;
+}
+@media screen and (max-width: 1000px) {
+    #box2 {
+        min-height: 800px;
+    }
+}
+
+.footer{
+    width:100%;
+    height:100px;
+    position:fixed;
+    background-color:forestgreen;
+    bottom:0;
+    left:0;
+}

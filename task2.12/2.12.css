@@ -1,0 +1,37 @@
+﻿body
+{
+}
+.box1 {
+    float:left;
+    width: 25%;
+    height: 10%;
+    background-color: bisque;
+}
+.box2 {
+    float: right;
+    width: 70%;
+    min-height: 199px;
+    background-color: darkgray;
+}
+.bigbox {
+    width: 100%;
+    height: 200px;
+    border: 3px solid lightgreen;
+    background-color: aqua;
+}
+p {
+    margin-top: 0;
+    font-size: x-small;
+    line-height: 11px;
+}
+@media screen and (max-width: 1000px) {
+    .box2 {
+        position: absolute;
+        left: 10px;
+        top: 100px;
+    }
+    .bigbox{
+        height:800px;
+        
+    }
+}

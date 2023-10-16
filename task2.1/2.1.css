@@ -1,0 +1,45 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #EAEAEA;
+    padding-top: 5px;
+    padding-left: 8px;
+    height: 80px;
+}
+
+#left-column {
+    width: 200px;
+    background-color: #C8FC98;
+    padding: 10px;
+    float: left;
+    margin-right: 4px;
+}
+
+    #left-column span {
+        color: red;
+        font-style: italic;
+    }
+
+#content-column {
+    padding: 10px 7px 10px 5px;
+}
+
+    #content-column span {
+        color: red;
+        font-style: italic;
+    }
+
+    #content-column h3 {
+        height: 10px;
+        float: left;
+        margin-left: 1px;
+        margin-right: 5px;
+    }
+
+#paragraph {
+    font-size: 18px;
+    text-indent: 5px;
+}

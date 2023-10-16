@@ -1,0 +1,14 @@
+﻿body
+{
+}
+
+.inline-box {
+    display: inline-flex;
+    margin: 15px;
+    width: 150px;
+    height: 70px;
+    background-color: aquamarine;
+}
+.box {
+    background-color: bisque;
+}

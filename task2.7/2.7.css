@@ -1,0 +1,53 @@
+﻿
+body
+{
+}
+h3{
+    color:white;
+}
+#box1 {
+    width: 200px;
+    height: 130px; 
+    background-color: purple;
+}
+#box2 {
+    position: relative;
+    width: 200px;
+    height: 130px;
+    bottom:18px;
+    background-color: darkred;
+}
+#box3 {
+    position: relative;
+    width: 200px;
+    height: 130px;
+    left:40px;
+    bottom:80px;
+    background-color: peru;
+}
+.containter {
+    position:relative;
+    width: 800px;
+    height: 500px;
+    bottom:80px;
+    background-color: indianred;
+    z-index:3;
+}
+.box{
+    position:absolute;
+    width:400px;
+    height:250px;
+    right:0;
+    top:150px;
+    background-color:rebeccapurple;
+
+}
+#box4 {
+    position:fixed;
+    width: 180px;
+    height: 150px;
+    bottom:0;
+    right:0;
+    background-color: forestgreen;
+    z-index:2;
+}

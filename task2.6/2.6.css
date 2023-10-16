@@ -1,0 +1,16 @@
+﻿body
+{
+}
+#box1 {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto 50px;
+}
+
+#box2 {
+    width: 440px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 10px solid blue;
+}

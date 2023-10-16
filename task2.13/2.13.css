@@ -1,0 +1,31 @@
+﻿body {
+    height: 100%;
+}
+
+.container {
+    border: 1px solid green;
+    background-color: aqua;
+    display: flex;
+}
+
+.list-cell {
+    padding: 5px 0px 5px 0px;
+    min-width: 30%;
+    background-color: bisque;
+    height: fit-content;
+}
+
+.text-cell {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    float: right;
+    width: 40%;
+}
+
+p {
+    margin: 0px;
+}

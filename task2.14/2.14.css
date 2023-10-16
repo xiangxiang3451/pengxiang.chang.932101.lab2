@@ -1,0 +1,40 @@
+﻿body
+{
+}
+.container{
+    display:flex;
+    border:1px solid green;
+    background-color:aqua;
+}
+.list {
+   
+    background-color: bisque;
+    height: fit-content;
+    min-width:30%;
+}
+.text {
+   
+    background-color:darkgrey;
+}
+p{
+    margin:0px;
+    padding:0px;
+}
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .list {
+        flex: auto 0 0;
+        margin: 20px 0px 20px 0px;
+        padding: 0px;
+    }
+
+    ul {
+        display: flex;
+        gap: 5px;
+        list-style: none;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,28 @@
+﻿body
+{
+}
+.box {
+    
+    width: 100%;
+    height: 180px;
+    border: 2px solid lightgreen;
+    background-color: aqua;
+   
+}
+img{
+    float:right;
+    width:180px;
+    height:180px;
+   
+    
+   
+
+}
+p{
+    width:calc(100% - 180px);
+    float:left;
+    margin:0;
+    font-size:10px;
+   
+
+}
